@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    <input type="number" placeholder="Enter number..." id="userInput" />
+    <button onclick="convert('milesToKm')">Miles to Kilometers</button>
+    <button onclick="convert('kmToMiles')">Kilometers to Miles</button>
+    <button onclick="convert('fahrenheitToCelsius')">
+      Fahrenheit to Celsius
+    </button>
+    <button onclick="convert('celsiusToFahrenheit')">
+      Celsius to Fahrenheit
+    </button>
+    <p>Result: <span id="resultElement">0</span></p>
+    <script src="script.js"></script>
+
+    <footer>© Rehyan 2024</footer>
+  </body>
+</html>
